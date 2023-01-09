@@ -4,7 +4,7 @@ from typing import Optional, TypedDict
 class Item(TypedDict):
     id: int
     parent: int
-    type: Optional[str] | None
+    type: str | None
 
 
 class TreeStore:
